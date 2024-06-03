@@ -1,58 +1,59 @@
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen bg-[#0a192f] text-gray-300">
-      <div className="flex flex-col justify-center items-center w-full h-full">
+    <div
+      name="about"
+      className="w-full py-20 sm:h-screen bg-[#0a192f] text-gray-300"
+    >
+      <div className="flex flex-col justify-center items-center w-full h-full sm:h-full">
         <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
-            <p className="text-4xl font-bold inline border-b-4 border-blue-600">
+            <p className="text-3xl sm:text-4xl font-bold inline border-b-4 border-blue-600">
               About Me
             </p>
           </div>
           <div></div>
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-          <div className="sm:text-right text-4xl font-bold">
-            <p>
+          <div>
+            <p className="sm:text-left text-3xl font-bold">
               Hi. I'm Abdoulaye, nice to meet you. Please take a look around.
+            </p>
+            <p className="py-2">
+              I am a Technical Product Manager with over 6 years of experience.
+              After completing my bachelor's degree in computer science in
+              France, I worked with several amazing companies and multicultural,
+              distributed teams worldwide, building health systems with
+              data-driven solutions.
+            </p>
+            <p className="pb-2">
+              I am passionate about delivering great products that improve
+              people's lives. It is immensely satisfying to see my work making a
+              positive impact on users.
+            </p>
+            <p className="pb-2">
+              Besides product management, I enjoy coaching and mentoring junior
+              professionals, sharing knowledge with the IT community, and
+              providing training. I am constantly learning and evolving.
             </p>
           </div>
           <div>
-            <p>
-              I am a Full-stack JavaScript Developer with over 5 years of
-              experience. After my bachelor’s degree in computer science in
-              France, I worked with several amazing companies and multi-cultural
-              and distributed teams around the world building health systems
-              with data-driven solutions using technologies like JavaScript,
-              Node.js, React.js, Redux, MongoDB, etc.
+            <p className="pb-2">
+              One of my strengths is the ability to see the bigger picture when
+              building great products by combining my technical expertise,
+              business analysis skills, and product management acumen. I don't
+              view software as mere code but as a means to deliver business
+              value to customers and companies.
             </p>
             <p className="py-2">
-              I am passionate about building great software that improves the
-              lives of those around me. It is very satisfying for me, to see
-              that my work is making an impact on people’s lives.
+              Bilingual in French and English, I can understand customers'
+              problem statements and pain points, and help businesses solve them
+              effectively. My goal in the long term is to become a world-class
+              Product Director or Head of Product, building amazing products in
+              a great company within the next decade.
             </p>
-            <p className="py-2">
-              Besides, I also like to coach and mentor junior software
-              developers to thrive in their professional careers, share
-              knowledge with the IT community and give training. I am constantly
-              learning and evolving.
+            <p className="py-2 font-bold text-xl italic text-blue-600">
+              Thank you.
             </p>
-            <p className="py-2">
-              Also, I believe that I have strong soft skills that made my past
-              projects successful. One of my strengths is that I can see the
-              bigger picture when building great products by combining my
-              software engineering skills, business analysis skills, and product
-              management skills. I do not see software just as code sitting in a
-              silo but as something that brings business value to both customers
-              and companies.
-            </p>
-            <p className="py-2">
-              I speak both French and English and I can understand customers’
-              problem statements and pain points that businesses want to solve
-              and help them solve the problem, and that’s what I am looking for
-              as a goal. I see myself 10 years from now as a world-class CTO
-              building amazing products in a great company.
-            </p>
-            <p className="py-2">Thank you.</p>
 
             {/* I am passioate about building excellent software that improves the
             lives of those around me. I specialize in creating software for

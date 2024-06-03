@@ -10,6 +10,7 @@ import {
 
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { AiFillFilePdf } from 'react-icons/ai';
 import { SiDevdotto } from 'react-icons/si';
 import { Link } from 'react-scroll';
 import Logo from '../assets/abdbint-white.svg';
@@ -180,14 +181,15 @@ const Navbar = () => {
               Twitter <FaTwitter size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#4215B6]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#E5322D]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://drive.google.com/file/d/1zKDF1gIaLSJUAIXxPAlinVifgrSmPYt2/view?usp=sharing"
+              href="https://drive.google.com/file/d/1NIvIcPS1h1_I3RGoVHSa-RSJzZ133neE/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
-              Resume <BsFillPersonLinesFill size={30} />
+              {/* Resume <BsFillPersonLinesFill size={30} /> */}
+              Resume <AiFillFilePdf size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
